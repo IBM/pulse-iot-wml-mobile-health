@@ -9,16 +9,16 @@ A brief description:
 - Using the mobile app, generate the LIVE pulse data. This data is published to IoT platform and then stored in a NSQL database
 - Streaming the pulse data from the app in real-time (or the database) and using WML validate it with the deployed model
 
-<img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/pulse-arch.png" width="500" height="350">
+<img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/pulse-arch.png" width="500" height="350" align="center">
 
 <hr>
 
 ## TUTORIAL STEPS
 
-- Step 1 - [Node.js application](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/Nodejs application.md)
-- Step 2 - [Watson IoT Platform](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/Watson IoT Platform.md)
-- Step 3 - [Watson Machine Learning](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/Watson Machine Learning.md)
-- Step 4 - [IBM Studios](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/IBM Studios.md)
+- Steps 1 & 5 - [Node.js application](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/NodejsApplication.md)
+- Step 2 - [Watson Machine Learning](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/WatsonMachineLearning.md)
+- Step 3 - [Watson IoT Platform](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/WatsonIoTPlatform.md)
+- Step 4 - [IBM Studios](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/IBMStudios.md)
 
 
 <hr>
@@ -27,7 +27,7 @@ A brief description:
 - Try it on your mobile phone's browser: `http://<YOUR_APP_NAME>.mybluemix.net`
   You can try my running app [http://mypulse.mybluemix.net/](http://mypulse.mybluemix.net/) to have a feel how it looks like, but mine exceeded the allowance plan for the machine learning service so the prediction parts will be displayed with <b>"undefined"</b>
 
-  <img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/plan.png" width="350" height="250">
+  <img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/plan.png" width="500" height="250">
 
 - Open [Watson IoT Platform Quickstart](https://quickstart.internetofthings.ibmcloud.com/#/)
 - Put your device id on there for real-time streaming view of your data.
