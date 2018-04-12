@@ -9,7 +9,7 @@ A brief description:
 - Using the mobile app, generate the LIVE pulse data. This data is published to IoT platform and then stored in a NSQL database
 - Streaming the pulse data from the app in real-time (or the database) and using WML validate it with the deployed model
 
-<img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/pulse-arch.png" width="700" height="400" align="center">
+  <img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/pulse-arch.png" width="700" height="400" align="center">
 
 <hr>
 
@@ -33,12 +33,12 @@ A brief description:
 - Open [Watson IoT Platform Quickstart](https://quickstart.internetofthings.ibmcloud.com/#/)
 - Put your device id on there for real-time streaming view of your data.
 
-<img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/qs.png" width="300" height="200">
+  <img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/qs.png" width="250" height="150">
 
 <hr>
 
 
-<img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/mypulse.gif" width="350" height="500">
+  <img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/mypulse.gif" width="350" height="500" align="center">
 
 
 ## Important Naming Notes
