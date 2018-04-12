@@ -4,7 +4,7 @@
 
 - Create [Machine Learning](https://console.bluemix.net/catalog/services/machine-learning) service
 - Save the credentials found at by clicking the Service Credentials (on left panel) and then clicking "New Credential" button on the right of your page (center)
-<img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/ml-addproject-1.png" width="500" height="350">
+
 
 > Fill in the credentials in .env.template, save and re-name it to .env
 
