@@ -25,9 +25,10 @@ A brief description:
 
 - After doing the above <u>**tutorial steps.**</u>
 - Try it on your mobile phone's browser: `http://<YOUR_APP_NAME>.mybluemix.net`
-  You can try my running app [http://mypulse.mybluemix.net/](http://mypulse.mybluemix.net/) to have a feel how it looks like, but mine exceeded the allowance plan for the machine learning service so the prediction parts will be displayed with <b>"undefined"</b>
 
-  <img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/plan.png" width="1200" height="250">
+  >You can try my running app [http://mypulse.mybluemix.net/](http://mypulse.mybluemix.net/) to have a feel how it looks like, but mine exceeded the allowance plan for the machine learning service so the prediction parts will be displayed with <b>"undefined"</b>
+
+  ><img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/plan.png" width="1200" height="250">
 
 - Open [Watson IoT Platform Quickstart](https://quickstart.internetofthings.ibmcloud.com/#/)
 - Put your device id on there for real-time streaming view of your data.
