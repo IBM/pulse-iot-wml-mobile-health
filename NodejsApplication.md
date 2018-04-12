@@ -10,7 +10,9 @@
 
 **To deploy the code to IBM Cloud:**
 - ./deploy.sh
+
 OR
+
 - run each line by line the content of the deploy.sh
 - <YOUR_APP_NAME>.mybluemix.net
 

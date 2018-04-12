@@ -9,10 +9,17 @@
 > Fill in the credentials in .env.template, save and re-name it to .env
 
 - Make sure you add your credentials in .env.template:
+
 WML_SERVICE_PATH=https://ibm-watson-ml.mybluemix.net
+
 WML_USERNAME=
+
 WML_PASSWORD=
+
 WML_INSTANCE_ID=
+
 WML_MODEL_ID=
+
 WML_DEPLOYMENT_ID=
+
 - Then rename .env.template to only .env
