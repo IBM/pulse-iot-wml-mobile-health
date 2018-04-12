@@ -1,0 +1,77 @@
+html, body {
+  font-family: sans-serif;
+  background: #FFFFFF;//#C7EBED;//#2B8A81;
+  height: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px #888;
+  border-radius: 12px;
+  padding: 5px;
+  background-color: #E1F1F1;
+  margin: 5px;
+  width: 80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.logo {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 15px;
+}
+
+h3 {
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.container {
+  margin: auto;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+}
+
+#header {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#bpm {
+  font-weight: bold;
+}
+
+.line{
+width: auto;
+height: 47px;
+border-bottom: 1px solid black;
+position: absolute;
+}
+
+#graph path {
+stroke: steelblue;
+stroke-width: 2;
+fill: none;
+}
+
+#graph2 path {
+stroke: red;
+stroke-width: 2;
+fill: none;
+}
+
+#graph .axis path,
+#graph2 .axis path,
+#graph .axis line,
+#graph2 .axis line {
+fill: none;
+stroke: grey;
+stroke-width: 1;
+shape-rendering: crispEdges;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "mypulse",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "mqtt": "*",
+    "express": "~4.15.5",
+    "path": "*",
+    "cfenv": "^1.0.4",
+    "http": "*",
+    "cors": "*",
+    "@cloudant/cloudant": "*",
+    "xmlhttprequest": "^1.8.0",
+    "axios": "^0.17.1",
+    "body-parser": "~1.18.2",
+    "watson-ml-model-utils": "0.0.2"
+  },
+  "author": "Hovig Ohannessian <oohanne@us.ibm.com>",
+  "license": "MIT"
+}

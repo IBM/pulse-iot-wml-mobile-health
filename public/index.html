@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MyPulse</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+	<script src="js/d3.v3.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+	<script type="text/javascript" src="js/mathutils.js" ></script>
+	<script type="text/javascript" src="js/audioprocessor.js" ></script>
+	<script type="text/javascript" src="js/diff.min.js" ></script>
+	<script src="js/mqttws31.js"></script>
+</head>
+
+<body onload="bodyLoaded();">
+	<h4 align="center"><font color="black">MyPulse - IoT WML Mobile Health App</font></h4>
+	<div id="output" align="center">
+		<img src="/img/heart.png" height="77" width="77">
+	</div><br>
+	<div align="center"><h4><font color="red">Click once on the heart image and <i><u>firmly</u></i> press the bottom of your smartphone against your chest and wait <i><u>without moving</u></i> until the pulse rate values listed below the pulse graph (~1 min).</font></h4>
+	<div id="graph" style="width:850px; height:200px;"></div></div>
+	<div class="main" align="center">
+		<div class="container">
+			<div id="header">Pulse Rate Values & Prediction
+			</div><div id="pulse"> - BPM - </div><br>
+		  <table align="center">
+				<div id="header">Watson IoT Platform Connectivity & Gyro Events
+				</div><tr>
+					<td id="connStatus">Disconnected</td>
+				</tr>
+				<tr>
+					<td id="devId"></td>
+				</tr>
+				<tr>
+					<td id="register" style="display: none;text-align: center">
+					</td>
+				</tr>
+				<tr>
+					<td id="cleardata" style="display: none;text-align: center">
+					</td>
+				</tr>
+				<tr>
+					<td id="doEvent"></td>
+				</tr>
+				<tr>
+					<td id="motion"></td>
+				</tr>
+				<tr>
+					<td id="acEvent"></td>
+				</tr>
+				<tr>
+					<td id="speed"></td>
+				</tr>
+				<tr>
+					<td id="location"></td>
+				</tr>
+			</table><br>
+				<div id="header">Watson Machine Learning (WML) Predictive Pulse Rate
+				</div><div class="row">
+					<div class="input-field col s12">
+						<label for="heart_beats">Heart Beats</label>
+						<input id="heart_beats" type="number" value="7" required>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<label for="time_in_secs">Seconds</label>
+						<input id="time_in_secs" type="number" value="6" required>
+					</div>
+				</div>
+				<div class="row">
+					<a id="submit" class="waves-effect waves-light btn">Submit</a>
+				</div>
+				<div id="loading" class="row" style="display: none;">
+					<div class="progress">
+						<div class="indeterminate"></div>
+					</div>
+				</div>
+				<div id="prediction" class="row" style="display: none;">
+					Prediction:
+					<span id="bpm"></span>
+				</div>
+			</div>
+	</div>
+	<br>
+	<div class="container" align="center">
+		<table align="center">
+			<tr>
+				<td><u>General BPM Rates Info</u></td>
+			</tr>
+			<tr>
+				<td>BPM < 50 - Bradycardia<br>50 < BPM < 90 - Normal HR<br>BPM > 90 - Tachycardia</td>
+			</tr>
+			<tr>
+				<td><h6><i><font color="blue">This is an approximated bpm app.</font></i></h6></td>
+			</tr>
+		</table>
+	</div>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+</html>

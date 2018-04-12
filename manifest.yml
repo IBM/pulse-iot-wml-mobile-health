@@ -1,0 +1,7 @@
+applications:
+- name: mypulse
+  host: mypulse
+  instances: 1
+  domain: mybluemix.net
+  memory: 256M
+  command: node server.js
