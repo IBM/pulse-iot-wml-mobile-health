@@ -9,18 +9,26 @@ A brief description:
 - Using the mobile app, generate the LIVE pulse data. This data is published to IoT platform and then stored in a NSQL database
 - Streaming the pulse data from the app in real-time (or the database) and using WML validate it with the deployed model
 
-<img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/pulse-arch.png" width="350" height="500">
-
->
-<u>**[Click here to see the tutorial steps of making this app](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/STEPS.md).**</u>
->
+<img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/pulse-arch.png" width="500" height="350">
 
 <hr>
 
-- After doing the **[tutorial steps](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/STEPS.md).**
+## TUTORIAL STEPS
+
+- Step 1 - [Node.js application](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/Nodejs application.md)
+- Step 2 - [Watson IoT Platform](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/Watson IoT Platform.md)
+- Step 3 - [Watson Machine Learning](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/Watson Machine Learning.md)
+- Step 4 - [IBM Studios](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/IBM Studios.md)
+
+
+<hr>
+
+- After doing the above <u>**tutorial steps.**</u>
 - Try it on your mobile phone's browser: `http://<YOUR_APP_NAME>.mybluemix.net`
   You can try my running app [http://mypulse.mybluemix.net/](http://mypulse.mybluemix.net/) to have a feel how it looks like, but mine exceeded the allowance plan for the machine learning service so the prediction parts will be displayed with <b>"undefined"</b>
-<img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/plan.png" width="350" height="500">
+
+  <img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/plan.png" width="350" height="250">
+
 - Open [Watson IoT Platform Quickstart](https://quickstart.internetofthings.ibmcloud.com/#/)
 - Put your device id on there for real-time streaming view of your data.
 
