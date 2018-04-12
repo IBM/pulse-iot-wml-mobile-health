@@ -1,9 +1,0 @@
-.DS_Store
-build/
-coverage/
-docs/
-jsdoc/
-node_modules/
-templates/
-test/legacy/
-tmp/
