@@ -6,7 +6,7 @@ A brief description:
 
 - Create a classification Model using a dataset which contains the pulse data and its related derived values. Deploy the Model and expose it as WML endpoints
 - Register the Mobile device with Watson IoT Platform
-- Using the mobile app, generate the LIVE pulse data. This data is published to IoT platform and then stored in a NSQL database
+- Using the mobile app, generate the LIVE pulse data. This data is published to IoT platform and then stored in a NoSQL database
 - Streaming the pulse data from the app in real-time (or the database) and using WML validate it with the deployed model
 
   <img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/pulse-arch.png" width="700" height="400" align="center">
