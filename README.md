@@ -1,3 +1,6 @@
+**__Skill Level__**: Any Skill Level
+<br>**__N.B__**: All services used in this repo are Lite plans. Also, star this repo if you like what you see.
+
 ## MyPulse - IoT WML Mobile Health App
 
 The idea behind this application is to have a way to check pulse rates with the most available devices and these are the mobile phones.
@@ -9,7 +12,7 @@ A brief description:
 - Using the mobile app, generate the LIVE pulse data. This data is published to IoT platform and then stored in a NoSQL database
 - Streaming the pulse data from the app in real-time (or the database) and using WML validate it with the deployed model
 
-  <img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/pulse-arch.png" width="700" height="400" align="center">
+  <img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/arch-diagram-health-model-1.png" width="700" height="400" align="center">
 
 <hr>
 
