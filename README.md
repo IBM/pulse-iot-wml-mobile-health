@@ -1,4 +1,4 @@
-**__Skill Level__**: Any Skill Level
+**__Skill Level__**: Intermediate
 <br>**__N.B__**: All services used in this repo are Lite plans. Also, star this repo if you like what you see.
 
 ## MyPulse - IoT WML Mobile Health App
