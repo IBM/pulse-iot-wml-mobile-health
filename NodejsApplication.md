@@ -9,12 +9,12 @@
 
 
 **To deploy the code to IBM Cloud:**
-- ./deploy.sh
+- `./deploy.sh`
 
 OR
 
-- run each line by line the content of the deploy.sh
-- <YOUR_APP_NAME>.mybluemix.net
+- run each line by line the content of the `deploy.sh`
+- `<YOUR_APP_NAME>.mybluemix.net`
 
 **To run the code locally to your laptop:**
 - npm install
