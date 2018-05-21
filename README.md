@@ -27,7 +27,7 @@ The idea behind this application is to have a way to check pulse rates with the 
 
   You can try our demo app at [http://mypulse.mybluemix.net/](http://mypulse.mybluemix.net/) to have an idea how it looks. Note that if the machine learning service is over quota is will show `undefined` for some fields.
 
-![](public/img/plan.png")
+![](public/img/plan.png)
 
 * Open [Watson IoT Platform Quickstart](https://quickstart.internetofthings.ibmcloud.com/#/)
 * Put your device id on there for real-time streaming view of your data.
