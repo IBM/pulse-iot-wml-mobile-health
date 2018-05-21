@@ -1,3 +1,5 @@
+> **DISCLAIMER**: This application is used for demonstrative and illustrative purposes only and does not constitute an offering that has gone through regulatory review. It is not intended to serve as a medical application. There is no representation as to the accuracy of the output of this application and it is presented without warranty.
+
 **__Skill Level__**: Intermediate
 <br>**__N.B__**: All services used in this repo are Lite plans. Also, star this repo if you like what you see.
 
