@@ -1,57 +1,42 @@
 > **DISCLAIMER**: This application is used for demonstrative and illustrative purposes only and does not constitute an offering that has gone through regulatory review. It is not intended to serve as a medical application. There is no representation as to the accuracy of the output of this application and it is presented without warranty.
 
 **__Skill Level__**: Intermediate
-<br>**__N.B__**: All services used in this repo are Lite plans. Also, star this repo if you like what you see.
+**__N.B__**: All services used in this repo are Lite plans. Also, star this repo if you like what you see.
 
-## MyPulse - IoT WML Mobile Health App
+# MyPulse - An IoT Waton Machine Learning Mobile Health App
 
-The idea behind this application is to have a way to check pulse rates with the most available devices and these are the mobile phones.
+The idea behind this application is to have a way to check pulse rates with the most available devices, mobile phones. Here's a brief description of the code pattern:
 
-A brief description:
+* Create a classification model using a dataset which contains the pulse data and its related derived values. Deploy the model and expose it as Watson Machine Learning endpoints
+* Register the mobile device with Watson IoT Platform
+* Using the mobile app, generate the LIVE pulse data. This data is published to IoT platform and then stored in a NoSQL database
+* Streaming the pulse data from the app in real-time (or the database) and using Watson Machine Learning validate it with the deployed model
 
-- Create a classification Model using a dataset which contains the pulse data and its related derived values. Deploy the Model and expose it as WML endpoints
-- Register the Mobile device with Watson IoT Platform
-- Using the mobile app, generate the LIVE pulse data. This data is published to IoT platform and then stored in a NoSQL database
-- Streaming the pulse data from the app in real-time (or the database) and using WML validate it with the deployed model
+![](public/img/arch-diagram-health-model-1.png)
 
-  <img src="https://raw.githubusercontent.com/IBM/pulse-iot-wml-mobile-health/master/public/img/arch-diagram-health-model-1.png" width="700" height="400" align="center">
+## Steps
 
-<hr>
+* Steps 1 & 5 - [Node.js application](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/NodejsApplication.md)
+* Step 2 - [Watson Machine Learning](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/WatsonMachineLearning.md)
+* Step 3 - [Watson IoT Platform](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/WatsonIoTPlatform.md)
+* Step 4 - [IBM Studios](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/IBMStudios.md)
 
-## TUTORIAL STEPS
+## Sample output
 
-- Steps 1 & 5 - [Node.js application](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/NodejsApplication.md)
-- Step 2 - [Watson Machine Learning](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/WatsonMachineLearning.md)
-- Step 3 - [Watson IoT Platform](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/WatsonIoTPlatform.md)
-- Step 4 - [IBM Studios](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/IBMStudios.md)
+* After doing the above steps, try it on your mobile phone's browser: `http://<YOUR_APP_NAME>.mybluemix.net`
 
+  You can try our demo app at [http://mypulse.mybluemix.net/](http://mypulse.mybluemix.net/) to have an idea how it looks. Note that if the machine learning service is over quota is will show `undefined` for some fields.
 
-<hr>
+![](public/img/plan.png")
 
-- After doing the above <u>**tutorial steps.**</u>
-- Try it on your mobile phone's browser: `http://<YOUR_APP_NAME>.mybluemix.net`
+* Open [Watson IoT Platform Quickstart](https://quickstart.internetofthings.ibmcloud.com/#/)
+* Put your device id on there for real-time streaming view of your data.
 
-  >You can try my running app [http://mypulse.mybluemix.net/](http://mypulse.mybluemix.net/) to have a feel how it looks like, but mine exceeded the allowance plan for the machine learning service so the prediction parts will be displayed with <b>"undefined"</b>
+![](public/img/qs.png)
 
-  ><img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/plan.png" width="1200" height="250">
+![](public/img/mypulse.gif)
 
-- Open [Watson IoT Platform Quickstart](https://quickstart.internetofthings.ibmcloud.com/#/)
-- Put your device id on there for real-time streaming view of your data.
-
-  <img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/qs.png" width="250" height="150">
-
-<hr>
-
-
-  <img src="https://raw.githubusercontent.com/hovig/pulse-iot-wml-mobile-health/master/public/img/mypulse.gif" width="350" height="500" align="center">
-
-
-## Important Naming Notes
-
-* Bluemix aka IBM Cloud
-* DSX aka Data Platform
-
-## Useful links
+## Links
 
 * [IBM Cloud](https://bluemix.net/)  
 * [IBM Cloud Documentation](https://www.ng.bluemix.net/docs/)  
