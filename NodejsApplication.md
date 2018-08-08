@@ -9,6 +9,9 @@
 
 
 **To deploy the code to IBM Cloud:**
+
+> Please make sure you have all the necessary CLIs (Cloud Foundry CLI (cf), Bluemix CLI (bx or bluemix), etc.) installed before any deployment.
+
 - ./deploy.sh
 
 OR
