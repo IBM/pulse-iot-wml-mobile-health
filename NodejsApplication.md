@@ -9,6 +9,8 @@
 
 
 **To deploy the code to IBM Cloud:**
+
+(Make sure you have [cloundfoundry](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html) installed)
 - ./deploy.sh
 
 OR
