@@ -18,28 +18,31 @@ The idea behind this application is to have a way to check pulse rates with the 
 
 ## Steps
 
-* Steps 1 & 5 - [Node.js application](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/NodejsApplication.md)
-* Step 2 - [Watson Machine Learning](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/WatsonMachineLearning.md)
-* Step 3 - [Watson IoT Platform](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/WatsonIoTPlatform.md)
-* Step 4 - [IBM Studios](https://github.com/hovig/pulse-iot-wml-mobile-health/blob/master/IBMStudios.md)
+* Steps 1 & 5 - [Node.js application](NodejsApplication.md)
+* Step 2 - [Watson Machine Learning](WatsonMachineLearning.md)
+* Step 3 - [Watson IoT Platform](WatsonIoTPlatform.md)
+* Step 4 - [IBM Watson Studios](IBMStudios.md)
 
-## Sample output
+## See Output Results
 
-* After doing the above steps, try it on your mobile phone's browser: `http://<YOUR_APP_NAME>.mybluemix.net`
+* __After doing the above steps, try it on your mobile phone's browser: `http://<YOUR_APP_NAME>.mybluemix.net`__
 
-  You can try our demo app at [http://mypulse.mybluemix.net/](http://mypulse.mybluemix.net/) to have an idea how it looks. Note that if the machine learning service is over quota is will show `undefined` for some fields.
+  __You can try our demo app at [http://mypulse.mybluemix.net/](http://mypulse.mybluemix.net/) to have an idea how it looks. Note that if the machine learning service is over quota is will show `undefined` for some fields.__
 
 ![](public/img/plan.png)
 
-* Open [Watson IoT Platform Quickstart](https://quickstart.internetofthings.ibmcloud.com/#/)
-* Put your device id on there for real-time streaming view of your data.
+* __Open [Watson IoT Platform Quickstart](https://quickstart.internetofthings.ibmcloud.com/#/)__
+* __Put your `Device ID` (found on your mobile app) on there for real-time streaming view of your data.__
 
 ![](public/img/qs.png)
 
-![](public/img/mypulse.gif)
+<hr>
+
+<center>![](public/img/mypulse.gif)</center>
 
 ## Links
 
+* [IBM Watson Studio](https://www.ibm.com/us-en/marketplace/data-science-experience)
 * [IBM Cloud](https://bluemix.net/)  
 * [IBM Cloud Documentation](https://www.ng.bluemix.net/docs/)  
 * [IBM Cloud Developers Community](http://developer.ibm.com/bluemix)  
@@ -47,7 +50,8 @@ The idea behind this application is to have a way to check pulse rates with the 
 * [IBM Watson IoT Platform](http://www.ibm.com/internet-of-things/iot-solutions/watson-iot-platform/)   
 * [IBM Watson IoT Platform Developers Community](https://developer.ibm.com/iotplatform/)
 * [Savitzky–Golay filter for smoothing the accelerometer data](https://en.wikipedia.org/wiki/Savitzky%E2%80%93Golay_filter)
-* Thanks to Mark Watson for making the "[watson-ml-model-utils](https://www.npmjs.com/package/watson-ml-model-utils)" library
+* [watson-ml-model-utils](https://www.npmjs.com/package/watson-ml-model-utils)
+* [Install & Configure Pixiedust](https://github.com/pixiedust/pixiedust/wiki/Setup:-Install-and-Configure-pixiedust)
 * [Optional: additional use case lookup](https://developer.ibm.com/in/2017/05/31/watson-iot-platform-based-heart-emotion-analysis-using-lyfas-device-apache-spark/)
 
 ## License
