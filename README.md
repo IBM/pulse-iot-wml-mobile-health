@@ -38,9 +38,7 @@ The idea behind this application is to have a way to check pulse rates with the 
 
 <hr>
 
-<center>
 ![](public/img/mypulse.gif)
-</center>
 
 ## Links
 
