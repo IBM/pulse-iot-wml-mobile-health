@@ -109,6 +109,8 @@ WML_DEPLOYMENT_ID=
 
 ## 参照リンク
 
+* [IBM Watson Studio](https://www.ibm.com/us-en/marketplace/data-science-experience)
+* [Introduction to Watson Studio](https://www.youtube.com/watch?v=TiS-LGfNoSo)
 * [IBM Cloud](https://bluemix.net/)  
 * [IBM Cloud Documentation](https://www.ng.bluemix.net/docs/)  
 * [IBM Cloud Developers Community](http://developer.ibm.com/bluemix)  
@@ -116,7 +118,8 @@ WML_DEPLOYMENT_ID=
 * [IBM Watson IoT Platform](http://www.ibm.com/internet-of-things/iot-solutions/watson-iot-platform/)   
 * [IBM Watson IoT Platform Developers Community](https://developer.ibm.com/iotplatform/)
 * [Savitzky–Golay filter for smoothing the accelerometer data](https://en.wikipedia.org/wiki/Savitzky%E2%80%93Golay_filter)
-* Thanks to Mark Watson for making the "[watson-ml-model-utils](https://www.npmjs.com/package/watson-ml-model-utils)" library
+* [watson-ml-model-utils](https://www.npmjs.com/package/watson-ml-model-utils)
+* [Install & Configure Pixiedust](https://github.com/pixiedust/pixiedust/wiki/Setup:-Install-and-Configure-pixiedust)
 * [Optional: additional use case lookup](https://developer.ibm.com/in/2017/05/31/watson-iot-platform-based-heart-emotion-analysis-using-lyfas-device-apache-spark/)
 
 ## ライセンス
