@@ -43,6 +43,7 @@ The idea behind this application is to have a way to check pulse rates with the 
 ## Links
 
 * [IBM Watson Studio](https://www.ibm.com/us-en/marketplace/data-science-experience)
+* [Introduction to Watson Studio](https://www.youtube.com/watch?v=TiS-LGfNoSo)
 * [IBM Cloud](https://bluemix.net/)  
 * [IBM Cloud Documentation](https://www.ng.bluemix.net/docs/)  
 * [IBM Cloud Developers Community](http://developer.ibm.com/bluemix)  
