@@ -18,9 +18,9 @@ At IBM Watson Studio is where you can analyze data using Jupyter Notebooks and R
 
 - __Choose Spark to create an instance of it__
 
-> Creating an environment
+> Creating an environment with Spark and Python
 
-![](public/img/spark.png)
+![](public/img/spark-1.png)
 
 > You can always come back and create the needed kernel
 
