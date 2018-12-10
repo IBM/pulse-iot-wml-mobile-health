@@ -5,7 +5,7 @@
 **__Skill Level__**: Intermediate
 **__N.B__**: All services used in this repo are Lite plans. Also, star this repo if you like what you see.
 
-# MyPulse - An IoT Waton Machine Learning Mobile Health App
+# MyPulse - An IoT Watson Machine Learning Mobile Health App
 
 The idea behind this application is to have a way to check pulse rates with the most available devices, mobile phones. Here's a brief description of the code pattern:
 
