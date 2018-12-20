@@ -19,7 +19,7 @@
 
 ## Flow
 
-  <img src="https://raw.githubusercontent.com/IBM/pulse-iot-wml-mobile-health/master/public/img/arch-diagram-health-model-1.png" width="700" height="400" align="center">
+![](public/img/pulse-arch.png)
 
 1. ユーザーがスマートフォン上のブラウザー内で Web アプリ (MyPulse) にアクセスします。ユーザーはスマートフォンを胸にあてて脈拍数をとります。
 2. IBM Cloud 上の Cloudant データベース、Watson IoT Platform、IBM Watson Studio と Watson Machine Learning サービスに、リアルタイムでデータ値が送信されます。
@@ -30,13 +30,10 @@
 
 ## チュートリアルの手順
 
-### ステップ 1 &amp; 5. Node.js application As A Service
+### ステップ 1. Node.js application As A Service
 
 - [Node.js Cloudant DB Web Starter](https://console.bluemix.net/catalog/starters/nodejs-cloudant-db-web-starter) を作成する
 - 名前をつける
-- このサービスには Cloudant データベースが付属しています
-- 実行中のアプリケーションインスタンス内に Cloudant がバインドされていることを確認してください
-- あなたがアプリケーションを実行すると、Cloudantでデータベースが作成されます
 
 **コードを IBM Cloud にデプロイする:**
 - ./deploy.sh

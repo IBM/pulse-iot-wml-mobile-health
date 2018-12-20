@@ -1,25 +1,30 @@
 ## Node.js application As A Service
 
-- Create [Node.js Cloudant DB Web Starter](https://console.bluemix.net/catalog/starters/nodejs-cloudant-db-web-starter)
+- Create [Node.js Service](https://console.bluemix.net/catalog/starters/sdk-for-nodejs)
 - Give it a Name
-- This service comes with Cloudant database attached to it
-- Check and make sure that you have Cloudant binded inside your running app instance
-- The app will create a database in Cloudant when you run it
 
 
 
 **To deploy the code to IBM Cloud:**
 
-> Please make sure you have all the necessary CLIs (Cloud Foundry CLI (cf), Bluemix CLI (bx or bluemix), etc.) installed before any deployment.
+> Please make sure you have all the necessary CLIs (Cloud Foundry CLI (cf), Bluemix CLI (bx or bluemix or ibmcloud), etc.) installed before any deployment.
+> __MAKE SURE__ you modify deploy.sh with your credentials and namings
 
-- ./deploy.sh
+* Run the following file in your terminal:
 
-OR
+```
+./deploy.sh
+```
 
-- run each line by line the content of the deploy.sh
-- <YOUR_APP_NAME>.mybluemix.net
+Note that the `deploy.sh` script will:  
 
-**To run the code locally to your laptop:**
+- Create the [Cloudant Database Service](Cloudant.md)
+- Bind the [Watson IoT Platform Service](WatsonIoTPlatform.md)
+
+After it's done running successfully, check `<YOUR_APP_NAME>.mybluemix.net` on browser
+
+
+* **To run the code locally to your laptop:**
 - npm install
 - npm start
-- localhost:3000
+- Open browser and check `localhost:3000`

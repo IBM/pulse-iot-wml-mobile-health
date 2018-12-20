@@ -14,14 +14,14 @@ The idea behind this application is to have a way to check pulse rates with the 
 * Using the mobile app, generate the LIVE pulse data. This data is published to IoT platform and then stored in a NoSQL database
 * Streaming the pulse data from the app in real-time (or the database) and using Watson Machine Learning validate it with the deployed model
 
-![](public/img/arch-diagram-health-model-1.png)
+![](public/img/pulse-arch.png)
 
 ## Steps
 
-* Steps 1 & 5 - [Node.js application](NodejsApplication.md)
-* Step 2 - [Watson Machine Learning](WatsonMachineLearning.md)
-* Step 3 - [Watson IoT Platform](WatsonIoTPlatform.md)
-* Step 4 - [IBM Watson Studios](IBMStudios.md)
+* Step 1 - [Node.js application](NodejsApplication.md)
+* Step 2 - [Watson IoT Platform](WatsonIoTPlatform.md)
+* Step 3 - [Cloudant Database Service](Cloudant.md)
+* Step 4 - [Watson Machine Learning](WatsonMachineLearning.md) & [IBM Watson Studios](IBMStudios.md)
 
 ## See Output Results
 
