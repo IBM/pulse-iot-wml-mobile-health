@@ -19,9 +19,9 @@ The idea behind this application is to have a way to check pulse rates with the 
 ## Steps
 
 * Step 1 - [Node.js application](NodejsApplication.md)
-* Step 2 - [Watson IoT Platform](WatsonIoTPlatform.md)
-* Step 3 - [Cloudant Database Service](Cloudant.md)
-* Step 4 - [Watson Machine Learning](WatsonMachineLearning.md) & [IBM Watson Studios](IBMStudios.md)
+* Step 2 - [Watson IoT Platform Service](WatsonIoTPlatform.md) & [Cloudant Database Service](Cloudant.md)
+* Step 3 - [Watson Machine Learning](WatsonMachineLearning.md)
+* Step 4 - [IBM Watson Studios](IBMStudios.md)
 
 ## See Output Results
 

@@ -2,7 +2,7 @@
 
 - Create [Node.js Service](https://console.bluemix.net/catalog/starters/sdk-for-nodejs)
 - Give it a Name
-
+- Follow steps in [Watson IoT Platform Service](WatsonIoTPlatform.md)
 
 
 **To deploy the code to IBM Cloud:**
