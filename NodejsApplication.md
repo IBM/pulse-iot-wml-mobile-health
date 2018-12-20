@@ -4,10 +4,12 @@
 - Give it a Name
 - Follow steps in [Watson IoT Platform Service](WatsonIoTPlatform.md)
 
+<hr>
 
 **To deploy the code to IBM Cloud:**
 
 > Please make sure you have all the necessary CLIs (Cloud Foundry CLI (cf), Bluemix CLI (bx or bluemix or ibmcloud), etc.) installed before any deployment.
+
 > __MAKE SURE__ you modify deploy.sh with your credentials and namings
 
 * Run the following file in your terminal:
@@ -23,8 +25,9 @@ Note that the `deploy.sh` script will:
 
 After it's done running successfully, check `<YOUR_APP_NAME>.mybluemix.net` on browser
 
+<hr>
 
-* **To run the code locally to your laptop:**
+**To run the code locally to your laptop:**
 - npm install
 - npm start
 - Open browser and check `localhost:3000`
